@@ -4,7 +4,7 @@
 Contains two structures with characteristics and information on IP address, also contains one common one, which is shown in the example. The overall structure contains two x's.
 
 ## Tip:
-If you want to parse a specific IP address and not a local one.
+If you want to parse a specific IP address and not a local one. (By default, the local IP is parsed)
 Then comment on the string in general_dumper.hxx and add the IP address to the get_ip_struct function with the argument.
 
 ```cpp
